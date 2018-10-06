@@ -5,7 +5,6 @@ virtualbox:
     cpus: 2
     memory: 2048
     gui: false
-    #Onderstaande on en off moet tussen aanhalingstekens (")!
     usb3: "off"
 
 iis:
@@ -14,7 +13,6 @@ iis:
     downloadpath: ""
 
 asp:
-    #true en false worden met een dollarteken ($) geschreven!
     asp35: $true
     asp45: $true
 
