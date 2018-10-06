@@ -1,0 +1,32 @@
+ip-address: 172.16.16.16
+
+virtualbox:
+    name: 'WISA Stack'
+    cpus: 2
+    memory: 2048
+    gui: false
+    #Onderstaande on en off moet tussen aanhalingstekens (")!
+    usb3: "off"
+
+iis:
+    username: ""
+    password: ""
+    downloadpath: ""
+
+asp:
+    #true en false worden met een dollarteken ($) geschreven!
+    asp35: $true
+    asp45: $true
+
+sql:
+    downloadpath: ""
+    instancename: ""
+    rootpassword: ""
+    #NOTE: Port-number has to be between 49152 and 65535
+    tcpportnr: "50000"
+    dbname: ""
+    username: ""
+    password: ""
+
+folders:
+    provision: './scripts'
